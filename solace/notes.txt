@@ -1,0 +1,7 @@
+| Scenario                          | What to Configure                                                                                           |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Solace Cloud on GCP**           | Use the host, VPN name, and credentials from your Solace Cloud console. No firewall config needed.          |
+| **Self-managed Solace on GCP VM** | Open ports `55555` (SMF), `8008` (Web Messaging), `1883` (MQTT), `5672` (AMQP) in your GCP firewall rules.  |
+| **Authentication**                | Solace Cloud uses basic auth (username/password). For production, use client certificates or OAuth.         |
+| **TLS/SSL**                       | Change port to `55443` and set `SessionProperties.SSLValidateCertificate = true` for encrypted connections. |
+
