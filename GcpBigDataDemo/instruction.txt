@@ -1,0 +1,6 @@
+dotnet new console -n GcpBigDataDemo
+cd GcpBigDataDemo
+dotnet add package Google.Cloud.BigQuery.V2
+dotnet add package Google.Cloud.PubSub.V1
+dotnet add package Google.Cloud.Storage.V1
+dotnet add package Google.Api.Gax
