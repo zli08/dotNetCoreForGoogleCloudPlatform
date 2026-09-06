@@ -1,0 +1,1 @@
+This is a complete .NET 6 console application that connects to the Dynatrace REST API v2 and retrieves data. The example fetches open problems (a common operational dataset). You can easily adapt it to other endpoints like metrics, entities, or synthetic monitors.
