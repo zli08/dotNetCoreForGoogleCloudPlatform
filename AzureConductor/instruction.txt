@@ -1,0 +1,5 @@
+dotnet add package Azure.Identity
+dotnet add package Azure.ResourceManager.Compute
+dotnet add package Azure.Messaging.ServiceBus
+dotnet add package Azure.Messaging.EventGrid
+dotnet add package Azure.Monitor.Ingestion
